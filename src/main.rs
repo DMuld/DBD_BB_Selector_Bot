@@ -8,4 +8,5 @@ fn main() {
     vars::run();
 
     println!("Testing the file.");
+    println!("TEST2");
 }
