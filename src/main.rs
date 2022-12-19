@@ -1,12 +1,12 @@
-mod print;
-mod vars;
+mod mouse_event_handler;
+mod screen_capture;
 
 fn main() {
-    println!("Hello, world!");
+    println!("Program Launched.");
 
-    print::run();
-    vars::run();
+    mouse_event_handler::switch();
+    screen_capture::run();
+    mouse_event_handler::run();
 
-    println!("Testing the file.");
-    println!("TEST2");
+    println!("Program Closed.");
 }
