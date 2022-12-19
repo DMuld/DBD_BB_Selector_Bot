@@ -6,7 +6,6 @@ fn main() {
 
     mouse_event_handler::switch();
     screen_capture::run();
-    mouse_event_handler::run();
 
     println!("Program Closed.");
 }
